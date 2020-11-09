@@ -27,7 +27,7 @@
 
 ***
 ## :key: environment variables:
-In the folder server create a file .env with these configurations:
+Create a file .env with these configurations:
 - **MAIL_HOST** = the host of send mail
 - **MAIL_PORT** = the port of send mail
 - **MAIL_AUTH_USER** = the user of send mail
