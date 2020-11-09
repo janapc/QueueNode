@@ -12,11 +12,40 @@
   <img alt="Language top" src="https://img.shields.io/github/repo-size/janapc/QueueNode"/>
 </p>
 
-
+***
 
 <h4 align="center">
  This project is an example of how to create a queue using Redis DB and bull queue and monitor the processes. All this using a queue dynamic and scalable.
 </h4>
+
+<p align="center">
+  <a href="#key-environment-variables">Environment variables</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down-installations">Installations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#file_folder-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-license">License</a>
+</p>
+
+***
+## :key: environment variables:
+In the folder server create a file .env with these configurations:
+- **MAIL_HOST** = the host of send mail
+- **MAIL_PORT** = the port of send mail
+- **MAIL_AUTH_USER** = the user of send mail
+- **MAIL_AUTH_PASS** = the password of send mail
+- **REDIS_HOST** = the host of redisDB
+- **REDIS_PORT** = the port of redisDB
+
+***
+
+## :arrow_down: Installations:
+To installations dependencies, follow the steps below inside folders:
+```
+  yarn or npm i
+```
+to run the folders, follow the steps below inside folders:
+```
+  yarn start or npm run start
+```
 
 ***
 
