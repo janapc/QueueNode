@@ -38,13 +38,15 @@ In the folder server create a file .env with these configurations:
 ***
 
 ## :arrow_down: Installations:
-To installations dependencies, follow the steps below inside folders:
+To installations dependencies, follow the steps below:
 ```
   yarn or npm i
 ```
-to run the folders, follow the steps below inside folders:
+To initiate the application, run an of commands the below:
 ```
-  yarn start or npm run start
+  yarn dev or npm run dev // run two scripts of package.json
+  yarn dev:server or npm run dev:server // run only the server
+  yarn dev:queue or npm run dev:queue // run only the queue
 ```
 
 ***
